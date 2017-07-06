@@ -1,0 +1,82 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Cabin', sans-serif;
+  background-color: #ecf0f1;
+}
+
+.header .logo img {
+  width: 120px;
+  height: 80px;
+  display: block;
+  float: left;
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  position: relative;
+}
+
+.header-menu {
+  position: absolute;
+  right: 0;
+  padding-top: 10px;
+  padding-right: 5px;
+}
+
+li {
+  display: block;
+  float: left;
+  width: 5em;
+  height: 5em;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #02b3e4;
+}
+
+.main {
+  width: 100%
+}
+
+.main .wrapper {
+  height: 0;
+  padding-bottom: 20%;
+  position: relative;
+}
+
+.wrapper {
+  position: relative;
+  width: 90%;
+  max-width: 75em;
+  margin: auto;
+}
+
+.excerpt {
+  color: #34495e;
+  font-family: 'Cabin';
+  font-size: 30px;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.profile {
+
+}
+
+.profile-pic {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
