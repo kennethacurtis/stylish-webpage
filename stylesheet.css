@@ -54,6 +54,9 @@ a {
 .main {
   width: 100%;
   padding-top: 180px;
+  display: block;
+  text-align: -webkit-center;
+  text-align: center;
 }
 
 .main .wrapper {
@@ -75,16 +78,6 @@ a {
   font-size: 30px;
 }
 
-.excerpt h1:after {
-     background: none repeat scroll #02b3e4;
-     bottom: -10px;
-     content: "";
-     display: block;
-     height: 3px;
-     position: relative;
-     width: 460px;
- }
-
 .profile-pic {
   max-width: 200px;
   max-height: 200px;
@@ -93,6 +86,9 @@ a {
 
 .social-links {
   padding-top: 10px;
+  display: block;
+  text-align: -webkit-center;
+  text-align: center;
 }
 
 .social-links ul {
@@ -104,10 +100,10 @@ a {
   font-size: 20px;
 }
 
-#border-right {
-    border-right: 2px solid #dbe2e8;
-    padding-right: 15px;
-    padding-left: 15px;
+.social-links a {
+  border-right: 2px solid #dbe2e8;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 #no-border {
@@ -117,21 +113,14 @@ a {
 
 .udacity {
   padding-top: 100px;
+  display: block;
+  text-align: -webkit-center;
+  text-align: center;
 }
 
 .udacity h1 {
   font-size: 50px;
 }
-
-.udacity h1:after {
-     background: none repeat scroll #02b3e4;
-     bottom: -10px;
-     content: "";
-     display: block;
-     height: 3px;
-     position: relative;
-     width: 600px;
- }
 
 .notes {
   padding-left: 500px;
@@ -143,12 +132,8 @@ a {
   padding-bottom: 200px;
 }
 
-.stylish-webpage ul:after {
-  background: none repeat scroll #02b3e4;
-  bottom: -10px;
-  content: "";
+.resume {
   display: block;
-  height: 3px;
-  position: relative;
-  width: 260px;
+  text-align: -webkit-center;
+  text-align: center;
 }
